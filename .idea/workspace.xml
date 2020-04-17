@@ -44,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/carId2Name">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="132">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -375,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587053104458</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Flink version-1.0">
+      <created>1587111650357</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587111650357</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -413,7 +420,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1111123" />
     <MESSAGE value="1111" />
-    <option name="LAST_COMMIT_MESSAGE" value="1111" />
+    <MESSAGE value="Flink version-1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flink version-1.0" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.2/flink-core-1.9.2-sources.jar!/org/apache/flink/api/common/serialization/DeserializationSchema.java">
@@ -676,8 +684,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/carId2Name">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="132">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
