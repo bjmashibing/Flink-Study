@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84b99963-8f82-4b47-be9b-1d24f5b37742" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/data/carId2Name" beforeDir="false" afterPath="$PROJECT_DIR$/data/carId2Name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Flink超神文档.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Flink01-集群搭建.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Flink02-Standalone YarnHA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Flink03-subtask划分及任务调度.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,54 +20,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/WordCount.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1221">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-              <folding>
-                <element signature="e#24#108#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/ReadHDfS.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-              <folding>
-                <element signature="e#24#75#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/carId2Name">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/environment/StreamExecutionEnvironment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28116">
-              <caret line="968" column="43" selection-start-line="968" selection-start-column="43" selection-end-line="968" selection-end-column="43" />
-              <folding>
-                <element signature="e#38446#38447#0" expanded="true" />
-                <element signature="e#38491#38492#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -160,6 +117,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -171,54 +129,18 @@
             <path>
               <item name="StudyFlink" type="b2602c69:ProjectViewProjectNode" />
               <item name="StudyFlink" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StudyFlink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StudyFlink" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StudyFlink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StudyFlink" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StudyFlink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StudyFlink" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StudyFlink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StudyFlink" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="msb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StudyFlink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StudyFlink" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="msb" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -230,6 +152,8 @@
       <recent name="com.msb.stream" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\StudyFlink\images" />
+      <recent name="D:\code\StudyFlink\docs" />
       <recent name="D:\code\StudyFlink\data" />
       <recent name="D:\code\StudyFlink\src\main\resources" />
     </key>
@@ -382,15 +306,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587111650357</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Flink version-1.1">
+      <created>1587111799477</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587111799477</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.813449" visible="true" weight="0.23773988" />
-      <window_info id="Structure" order="1" sideWeight="0.18655097" side_tool="true" visible="true" weight="0.23773988" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8101952" visible="true" weight="0.2457356" />
+      <window_info id="Structure" order="1" sideWeight="0.18980478" side_tool="true" visible="true" weight="0.2457356" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -421,16 +351,10 @@
     <MESSAGE value="1111123" />
     <MESSAGE value="1111" />
     <MESSAGE value="Flink version-1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Flink version-1.0" />
+    <MESSAGE value="Flink version-1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flink version-1.1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.2/flink-core-1.9.2-sources.jar!/org/apache/flink/api/common/serialization/DeserializationSchema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="42" column="74" selection-start-line="42" selection-start-column="74" selection-end-line="42" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/KafkaSource02.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/KafkaProducer.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/KafkaSource.scala" />
@@ -653,7 +577,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/WordCount.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1221">
+        <state relative-caret-position="1254">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="e#24#108#0" expanded="true" />
@@ -663,7 +587,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/environment/StreamExecutionEnvironment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28116">
+        <state relative-caret-position="28182">
           <caret line="968" column="43" selection-start-line="968" selection-start-column="43" selection-end-line="968" selection-end-column="43" />
           <folding>
             <element signature="e#38446#38447#0" expanded="true" />
@@ -672,20 +596,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/ReadHDfS.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="e#24#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/images/Flink02-Standalone YarnHA.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data/carId2Name">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        <state relative-caret-position="66">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/ReadHDfS.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="e#24#75#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
