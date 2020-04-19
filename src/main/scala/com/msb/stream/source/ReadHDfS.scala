@@ -1,9 +1,9 @@
-package com.msb.stream
+package com.msb.stream.source
 
 import org.apache.flink.api.java.io.TextInputFormat
 import org.apache.flink.core.fs.Path
 import org.apache.flink.streaming.api.functions.source.FileProcessingMode
-import org.apache.flink.streaming.api.scala.{DataStream, StreamExecutionEnvironment}
+import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
 import org.apache.flink.streaming.api.scala._
 
 /**
@@ -25,7 +25,7 @@ object ReadHDfS {
       stream.print()
     } catch {
       case ex: Exception => {
-        ex.printStackTrace()
+        ex.getMessage()
       }
     }
     env.execute()
