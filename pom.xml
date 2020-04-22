@@ -7,42 +7,112 @@
     <groupId>com.msb</groupId>
     <artifactId>StudyFlink</artifactId>
     <version>1.0-SNAPSHOT</version>
+<<<<<<< HEAD
     <properties>
         <flink-version>1.9.2</flink-version>
         <scala-version>2.11.8</scala-version>
+=======
+
+    <properties>
+        <flink.version>1.9.2</flink.version>
+        <scala.version>2.11.8</scala.version>
+        <redis.version>3.2.0</redis.version>
+        <hbase.version>1.3.3</hbase.version>
+        <mysql.version>5.1.44</mysql.version>
+>>>>>>> 新增算子
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-scala_2.11</artifactId>
+<<<<<<< HEAD
             <version>${flink-version}</version>
+=======
+            <version>${flink.version}</version>
+>>>>>>> 新增算子
         </dependency>
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-streaming-scala_2.11</artifactId>
+<<<<<<< HEAD
             <version>${flink-version}</version>
+=======
+            <version>${flink.version}</version>
+>>>>>>> 新增算子
         </dependency>
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-clients_2.11</artifactId>
+<<<<<<< HEAD
             <version>${flink-version}</version>
+=======
+            <version>${flink.version}</version>
+>>>>>>> 新增算子
         </dependency>
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
+<<<<<<< HEAD
             <version>${scala-version}</version>
         </dependency>
 
+=======
+            <version>${scala.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-connector-kafka_2.11</artifactId>
+            <version>${flink.version}</version>
+        </dependency>
+>>>>>>> 新增算子
         <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-client</artifactId>
             <version>2.6.5</version>
         </dependency>
+<<<<<<< HEAD
 
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-connector-kafka_2.11</artifactId>
             <version>${flink-version}</version>
+=======
+        <dependency>
+            <groupId>org.apache.bahir</groupId>
+            <artifactId>flink-connector-redis_2.11</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>${redis.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.hbase</groupId>
+            <artifactId>hbase-client</artifactId>
+            <version>${hbase.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hbase</groupId>
+            <artifactId>hbase-common</artifactId>
+            <version>${hbase.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hbase</groupId>
+            <artifactId>hbase-server</artifactId>
+            <version>${hbase.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-connector-filesystem_2.11</artifactId>
+            <version>${flink.version}</version>
+>>>>>>> 新增算子
         </dependency>
 
     </dependencies>
