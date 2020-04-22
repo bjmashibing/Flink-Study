@@ -1,27 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="84b99963-8f82-4b47-be9b-1d24f5b37742" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/CustomSourceStandalone.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/FlinkKafkaProducer.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ParallCustomSource.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ReadCollections.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ReadHDfS.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ReadKafka.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ReadKafkaNoKey.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/MapOperator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/SplitOperator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/UnionOperator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/msb/stream/ReadHDfS.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
-=======
-    <list default="true" id="84b99963-8f82-4b47-be9b-1d24f5b37742" name="Default Changelist" comment="" />
->>>>>>> 新增算子
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,20 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/MapOperator.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-              <folding>
-                <element signature="e#39#93#0" expanded="true" />
-              </folding>
-=======
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/Rescale.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="396">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="320" column="14" lean-forward="true" selection-start-line="320" selection-start-column="14" selection-end-line="320" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -82,196 +64,38 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
               <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
->>>>>>> 新增算子
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/UnionOperator.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#39#109#0" expanded="true" />
-              </folding>
-=======
         <entry file="file://$PROJECT_DIR$/data/stream2/3">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
               <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
->>>>>>> 新增算子
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/SplitOperator.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-=======
         <entry file="file://$PROJECT_DIR$/data/stream2/4">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret selection-end-line="2" />
->>>>>>> 新增算子
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-<<<<<<< HEAD
-        <option value="Scala Object" />
-        <option value="Package Object" />
-=======
-        <option value="Package Object" />
-        <option value="Scala Class" />
-        <option value="Scala Object" />
->>>>>>> 新增算子
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>310999001704</find>
-      <find>IterativeStream</find>
-<<<<<<< HEAD
-    </findStrings>
-=======
-      <find>local</find>
-      <find>InetAddress</find>
-    </findStrings>
-    <dirStrings>
-      <dir>D:\code\StudyFlink</dir>
-    </dirStrings>
->>>>>>> 新增算子
-  </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/WordCount1.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/DataFlowTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/batch/WordCount.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/batch/ReduceGroupOperator.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/FileSource.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/CollectionSource.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/KafkaSource.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/KafkaSource1.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/KafkaSource02.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/KafkaProducer.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/CustomSourceNoParll.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/CustomSourceMulPara.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/CustomSource.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/CarFlowPerMonitor.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/TransformationOperator.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/producer/CarFlowProducer.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/Connect.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/ConnectDemo.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/SplitDemo.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/IterateOperator.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/IteratorTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/ProjectDemo.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/CarFlowAnalyze.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/ReadFromHDFS.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/WordCount.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/data/carId2Name" />
-=======
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/ReadFromHDFS.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/WordCount.scala" />
->>>>>>> 新增算子
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/asdasd.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/ReadHDfS.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/ReadCollections.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/KafkaProducer.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/FlinkKafkaProducer.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/ReadKafka.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/ReadKafkaNoKey.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/CustomSource.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/CustomSourceStandalone.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/ParallCustomSource.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/CustomSourceStandalone.scala" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/FlinkKafkaProducer.scala" />
-=======
->>>>>>> 新增算子
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ParallCustomSource.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ReadCollections.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ReadHDfS.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ReadKafka.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ReadKafkaNoKey.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/MapOperator.scala" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/UnionOperator.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/SplitOperator.scala" />
-=======
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/SplitOperator.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/UnionOperator.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/batch/WordCount.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/scriptFile.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/SocketCustomSink.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/FlinkKafkaProducer.scala" />
-        <option value="$USER_HOME$/.m2/settings.xml" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/util/PropertiesUtils.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/util/HBaseUtil.scala" />
-        <option value="$PROJECT_DIR$/src/main/resources/hbase.properties" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/DataUtils.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/util/DataUtils.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/RedisSink.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/KafkaSink.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/MySQLSink.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/SocketSink.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/FileSink.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/HBaseSink.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/CarFlowAnaly.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/ConnectOperator.scala" />
-        <option value="$PROJECT_DIR$/data/carId2Name" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/CoFlatMap.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/SideOutputOPerator.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/SideOutputOperator.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/Itera.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/WC2Redis.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/ProcessAPITest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/PartitonerTest.scala" />
-        <option value="$PROJECT_DIR$/data/stream2/4" />
-        <option value="$PROJECT_DIR$/data/stream1/2" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/Rescale.scala" />
->>>>>>> 新增算子
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-<<<<<<< HEAD
-        <option name="workOffline" value="true" />
-=======
-        <option name="localRepository" value="C:\Users\admin\.m2\repository" />
-        <option name="userSettingsFile" value="C:\Users\admin\.m2\settings.xml" />
->>>>>>> 新增算子
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-<<<<<<< HEAD
-=======
-        <option name="vmOptionsForImporter" value="-Xmx768m" />
->>>>>>> 新增算子
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -289,34 +113,11 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="StudyFlink" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-<<<<<<< HEAD
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="StudyFlink" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-=======
->>>>>>> 新增算子
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
     </treeState>
-  </component>
-<<<<<<< HEAD
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="278" />
-    <option name="y" value="180" />
-=======
-  <component name="MavenRunner">
-    <option name="jreName" value="1.8.0_131" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
->>>>>>> 新增算子
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -336,14 +137,16 @@
             <path>
               <item name="StudyFlink" type="b2602c69:ProjectViewProjectNode" />
               <item name="StudyFlink" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudyFlink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyFlink" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="StudyFlink" type="b2602c69:ProjectViewProjectNode" />
               <item name="StudyFlink" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-=======
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="stream1" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -368,17 +171,13 @@
               <item name="StudyFlink" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
->>>>>>> 新增算子
             </path>
             <path>
               <item name="StudyFlink" type="b2602c69:ProjectViewProjectNode" />
               <item name="StudyFlink" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-=======
               <item name="resources" type="462c0819:PsiDirectoryNode" />
->>>>>>> 新增算子
             </path>
             <path>
               <item name="StudyFlink" type="b2602c69:ProjectViewProjectNode" />
@@ -433,15 +232,12 @@
               <item name="stream" type="462c0819:PsiDirectoryNode" />
               <item name="transformation" type="462c0819:PsiDirectoryNode" />
             </path>
-<<<<<<< HEAD
-=======
             <path>
               <item name="StudyFlink" type="b2602c69:ProjectViewProjectNode" />
               <item name="StudyFlink" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
->>>>>>> 新增算子
           </expand>
           <select />
         </subPane>
@@ -449,44 +245,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-<<<<<<< HEAD
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-=======
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.40229884" />
->>>>>>> 新增算子
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-<<<<<<< HEAD
-=======
-      <recent name="com.msb" />
-      <recent name="com.msb.stream.util" />
->>>>>>> 新增算子
-      <recent name="com.msb.stream.transformation" />
-      <recent name="com.msb.stream" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-<<<<<<< HEAD
-      <recent name="D:\code\StudyFlink\images" />
-      <recent name="D:\code\StudyFlink\docs" />
-      <recent name="D:\code\StudyFlink\data" />
-      <recent name="D:\code\StudyFlink\src\main\resources" />
-=======
-      <recent name="D:\code\StudyFlink\src\main\resources" />
-      <recent name="D:\code\StudyFlink" />
-      <recent name="D:\code\StudyFlink\images" />
-      <recent name="D:\code\StudyFlink\docs" />
-      <recent name="D:\code\StudyFlink\data" />
->>>>>>> 新增算子
+      <recent name="D:\code\StudyFlink\.idea" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -501,282 +265,18 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="Application.SplitOperator">
-    <configuration name="CustomSource" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.source.CustomSourceStandalone" />
-      <module name="StudyFlink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.msb.stream.source.*" />
-=======
-  <component name="RunManager" selected="Application.Rescale">
-    <configuration name="Itera" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.Itera" />
-      <module name="StudyFlink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.msb.stream.transformation.*" />
->>>>>>> 新增算子
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-<<<<<<< HEAD
-    <configuration name="MapOperator" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.MapOperator" />
-=======
-    <configuration name="PartitonerTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.PartitonerTest" />
->>>>>>> 新增算子
-      <module name="StudyFlink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.msb.stream.transformation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-<<<<<<< HEAD
-    <configuration name="ParallCustomSource" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.source.ParallCustomSource" />
-      <module name="StudyFlink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.msb.stream.source.*" />
-=======
-    <configuration name="ProcessAPITest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.ProcessAPITest" />
-      <module name="StudyFlink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.msb.stream.transformation.*" />
->>>>>>> 新增算子
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-<<<<<<< HEAD
-    <configuration name="SplitOperator" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.SplitOperator" />
-=======
-    <configuration name="Rescale" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.Rescale" />
->>>>>>> 新增算子
-      <module name="StudyFlink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.msb.stream.transformation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-<<<<<<< HEAD
-    <configuration name="UnionOperator" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.UnionOperator" />
-=======
-    <configuration name="WC2Redis" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.WC2Redis" />
->>>>>>> 新增算子
-      <module name="StudyFlink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.msb.stream.transformation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-<<<<<<< HEAD
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.SplitOperator" />
-        <item itemvalue="Application.UnionOperator" />
-        <item itemvalue="Application.MapOperator" />
-        <item itemvalue="Application.ParallCustomSource" />
-        <item itemvalue="Application.CustomSource" />
-=======
-    <list>
-      <item itemvalue="Application.Itera" />
-      <item itemvalue="Application.WC2Redis" />
-      <item itemvalue="Application.ProcessAPITest" />
-      <item itemvalue="Application.PartitonerTest" />
-      <item itemvalue="Application.Rescale" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Rescale" />
-        <item itemvalue="Application.PartitonerTest" />
-        <item itemvalue="Application.ProcessAPITest" />
-        <item itemvalue="Application.WC2Redis" />
-        <item itemvalue="Application.Itera" />
->>>>>>> 新增算子
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="84b99963-8f82-4b47-be9b-1d24f5b37742" name="Default Changelist" comment="" />
-      <created>1586675482694</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1586675482694</updated>
-    </task>
-    <task id="LOCAL-00001" summary="1111">
-      <created>1587049660099</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1587049660099</updated>
-    </task>
-    <task id="LOCAL-00002" summary="1111">
-      <created>1587050160660</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1587050160660</updated>
-    </task>
-    <task id="LOCAL-00003" summary="1111">
-      <created>1587052073542</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1587052073542</updated>
-    </task>
-    <task id="LOCAL-00004" summary="1111123">
-      <created>1587052096072</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1587052096072</updated>
-    </task>
-    <task id="LOCAL-00005" summary="1111123">
-      <created>1587052150995</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1587052150995</updated>
-    </task>
-    <task id="LOCAL-00006" summary="1111">
-      <created>1587053104457</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1587053104458</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Flink version-1.0">
-      <created>1587111650357</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1587111650357</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Flink version-1.1">
-      <created>1587111799477</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1587111799477</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Flink version-1.2 上传课件及知识讲解图">
-      <created>1587213007324</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1587213007324</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Flink version-1.2 上传课件及知识讲解图">
-      <created>1587294626005</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1587294626005</updated>
-    </task>
-<<<<<<< HEAD
-    <option name="localTasksCounter" value="11" />
-=======
-    <task id="LOCAL-00011" summary="Flink version-1.3 新增Flink算子讲解">
-      <created>1587305271509</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1587305271509</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Flink version-1.3 新增Flink算子讲解">
-      <created>1587478243929</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1587478243929</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Flink version-1.3 新增Flink算子讲解">
-      <created>1587479353544</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1587479353544</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Flink version-1.3 新增Flink算子讲解">
-      <created>1587479491779</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1587479491779</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Flink version-1.3 新增Flink算子讲解1">
-      <created>1587485124778</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1587485124778</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Flink version-1.3 新增Flink算子讲解189">
-      <created>1587539271609</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1587539271609</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Flink version-1.3 新增Flink算子讲解1891">
-      <created>1587541599676</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1587541599676</updated>
-    </task>
-    <option name="localTasksCounter" value="18" />
->>>>>>> 新增算子
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-<<<<<<< HEAD
     <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8078078" visible="true" weight="0.18336888" />
-      <window_info id="Structure" order="1" sideWeight="0.1921922" side_tool="true" visible="true" weight="0.18336888" />
-=======
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.3148148" visible="true" weight="0.20842217" />
       <window_info id="Structure" order="1" sideWeight="0.6851852" side_tool="true" weight="0.32142857" />
->>>>>>> 新增算子
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -784,26 +284,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27765727" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-=======
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.65831554" visible="true" weight="0.31344903" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5542299" />
->>>>>>> 新增算子
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.25813448" />
-=======
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4067164" side_tool="true" weight="0.21258135" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.5932836" weight="0.34056398" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4978678" weight="0.45986986" />
->>>>>>> 新增算子
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -814,941 +303,20 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="1111123" />
-    <MESSAGE value="1111" />
-    <MESSAGE value="Flink version-1.0" />
-    <MESSAGE value="Flink version-1.1" />
-    <MESSAGE value="Flink version-1.2 上传课件及知识讲解图" />
-<<<<<<< HEAD
-    <option name="LAST_COMMIT_MESSAGE" value="Flink version-1.2 上传课件及知识讲解图" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/environment/StreamExecutionEnvironment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28182">
-          <caret line="968" column="43" selection-start-line="968" selection-start-column="43" selection-end-line="968" selection-end-column="43" />
-          <folding>
-            <element signature="e#38446#38447#0" expanded="true" />
-            <element signature="e#38491#38492#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/Flink02-Standalone YarnHA.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/carId2Name">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/batch/ReduceGroupOperator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/batch/WordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/asdasd.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#24#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/WordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1004">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#24#108#0" expanded="true" />
-=======
-    <MESSAGE value="Flink version-1.3 新增Flink算子讲解" />
-    <MESSAGE value="Flink version-1.3 新增Flink算子讲解1" />
-    <MESSAGE value="Flink version-1.3 新增Flink算子讲解189" />
-    <MESSAGE value="Flink version-1.3 新增Flink算子讲解1891" />
-    <option name="LAST_COMMIT_MESSAGE" value="Flink version-1.3 新增Flink算子讲解1891" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-kafka-base_2.11/1.9.2/flink-connector-kafka-base_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/connectors/kafka/FlinkKafkaProducerBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="70" column="44" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-kafka-base_2.11/1.9.2/flink-connector-kafka-base_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/connectors/kafka/internals/KeyedSerializationSchemaWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="29" column="44" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-kafka-base_2.11/1.9.2/flink-connector-kafka-base_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/util/serialization/KeyedSerializationSchema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="35" column="41" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-kafka_2.11/1.9.2/flink-connector-kafka_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/connectors/kafka/FlinkKafkaProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="543" column="27" selection-start-line="543" selection-start-column="12" selection-end-line="543" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-kafka-base_2.11/1.9.2/flink-connector-kafka-base_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/connectors/kafka/KafkaSerializationSchema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="39" column="41" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ReadKafkaNoKey.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.2.0/kafka-clients-2.2.0-sources.jar!/org/apache/kafka/clients/producer/ProducerRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="898">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/KafkaSink.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#29#45#0" expanded="true" />
->>>>>>> 新增算子
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/functions/source/FileMonitoringFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-kafka-base_2.11/1.9.2/flink-connector-kafka-base_2.11-1.9.2.jar!/org/apache/flink/streaming/connectors/kafka/FlinkKafkaConsumerBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="61" column="60" selection-start-line="61" selection-start-column="56" selection-end-line="61" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.2/flink-core-1.9.2-sources.jar!/org/apache/flink/api/common/serialization/DeserializationSchema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="42" column="38" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/util/serialization/DeserializationSchema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/util/serialization/SimpleStringSchema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/util/serialization/TypeInformationSerializationSchema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/util/serialization/AbstractDeserializationSchema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.2/flink-core-1.9.2-sources.jar!/org/apache/flink/api/common/serialization/AbstractDeserializationSchema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.2/flink-core-1.9.2-sources.jar!/org/apache/flink/api/common/serialization/TypeInformationSerializationSchema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.2/flink-core-1.9.2-sources.jar!/org/apache/flink/api/common/serialization/SimpleStringSchema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding>
-            <element signature="e#1833#1834#0" expanded="true" />
-            <element signature="e#1868#1869#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/ReadCollections.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="e#24#94#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/ReadHDfS.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="e#24#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/carFlow_all_column_test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="93" selection-start-column="91" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.2.0/kafka-clients-2.2.0-sources.jar!/org/apache/kafka/clients/producer/KafkaProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="725" column="34" selection-start-line="725" selection-start-column="34" selection-end-line="725" selection-end-column="34" />
-          <folding>
-            <element signature="e#43243#43244#0" expanded="true" />
-            <element signature="e#43284#43285#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.2.0/kafka-clients-2.2.0-sources.jar!/org/apache/kafka/clients/producer/ProducerRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="119" column="31" lean-forward="true" selection-start-line="119" selection-start-column="31" selection-end-line="119" selection-end-column="31" />
-          <folding>
-            <element signature="e#6108#6109#0" expanded="true" />
-            <element signature="e#6165#6166#0" expanded="true" />
-=======
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/functions/sink/SinkFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/functions/sink/RichSinkFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/functions/sink/filesystem/bucketassigners/DateTimeBucketAssigner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-544">
-          <caret line="60" column="72" lean-forward="true" selection-start-line="60" selection-start-column="57" selection-end-line="60" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/functions/sink/filesystem/StreamingFileSink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="222" column="64" selection-start-line="222" selection-start-column="64" selection-end-line="222" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/MySQLSink.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3267">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
-          <folding>
-            <element signature="e#29#91#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/SocketSink.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2640">
-          <caret line="80" column="3" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
-          <folding>
-            <element signature="e#29#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/HBaseSink.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-          <folding>
-            <element signature="e#29#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/FileSink.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="e#29#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/functions/sink/filesystem/bucketassigners/BasePathBucketAssigner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/functions/sink/filesystem/BucketAssigner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/UnionOperator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ReadKafka.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="42" column="18" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="42" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ParallCustomSource.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ReadCollections.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/CarFlowAnaly.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="57" column="31" lean-forward="true" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
-          <folding>
-            <element signature="e#39#66#0" expanded="true" />
->>>>>>> 新增算子
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.11/1.9.2/flink-streaming-scala_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/scala/StreamExecutionEnvironment.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="612" column="51" selection-start-line="612" selection-start-column="46" selection-end-line="612" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/functions/source/RichSourceFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="43" column="100" selection-start-line="43" selection-start-column="86" selection-end-line="43" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-kafka-base_2.11/1.9.2/flink-connector-kafka-base_2.11-1.9.2.jar!/org/apache/flink/streaming/connectors/kafka/KafkaDeserializationSchema.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-kafka-base_2.11/1.9.2/flink-connector-kafka-base_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/connectors/kafka/KafkaDeserializationSchema.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.11/1.9.2/flink-streaming-scala_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/scala/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="94" column="19" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-kafka_2.11/1.9.2/flink-connector-kafka_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/connectors/kafka/FlinkKafkaConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="100" column="73" lean-forward="true" selection-start-line="100" selection-start-column="73" selection-end-line="100" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/FlinkKafkaProducer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-          <folding>
-            <element signature="e#24#51#0" expanded="true" />
-=======
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.11/1.9.2/flink-streaming-scala_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/scala/ConnectedStreams.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="62" column="16" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/functions/co/CoMapFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/ConnectOperator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="17" column="50" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="17" selection-end-column="50" />
-          <folding>
-            <element signature="e#39#124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/FlinkKafkaProducer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-          <folding>
-            <element signature="e#31#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/carId2Name">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/CoFlatMap.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-          <folding>
-            <element signature="e#39#90#0" expanded="true" />
->>>>>>> 新增算子
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/ReadKafkaNoKey.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding>
-            <element signature="e#24#51#0" expanded="true" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/SplitOperator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/SideOutputOperator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding>
-            <element signature="e#39#102#0" expanded="true" />
->>>>>>> 新增算子
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/ReadKafka.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-          <folding>
-            <element signature="e#24#51#0" expanded="true" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/Itera.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-          <folding>
-            <element signature="e#39#109#0" expanded="true" />
->>>>>>> 新增算子
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/functions/source/SourceFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="200" column="22" lean-forward="true" selection-start-line="200" selection-start-column="21" selection-end-line="200" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/CustomSourceStandalone.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="34" column="17" selection-start-line="11" selection-end-line="34" selection-end-column="17" />
-          <folding>
-            <element signature="e#24#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/functions/source/ParallelSourceFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="35" column="39" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/functions/source/RichParallelSourceFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="36" column="41" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/datastream/DataStreamSink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/ParallCustomSource.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding>
-            <element signature="e#24#119#0" expanded="true" />
-=======
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.2/flink-core-1.9.2-sources.jar!/org/apache/flink/api/common/functions/AbstractRichFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="75" column="43" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.2/flink-core-1.9.2-sources.jar!/org/apache/flink/api/common/functions/RichMapFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.2/flink-core-1.9.2-sources.jar!/org/apache/flink/api/common/functions/MapFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="43" column="28" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.2.0/jedis-3.2.0.jar!/redis/clients/jedis/Jedis.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="50" column="38" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/WC2Redis.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#39#99#0" expanded="true" />
->>>>>>> 新增算子
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/package.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="36" column="45" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/CustomSourceStandalone.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/FlinkKafkaProducer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ParallCustomSource.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ReadCollections.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-          <folding>
-            <element signature="e#31#115#0" expanded="true" />
-=======
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/runtime/partitioner/ShufflePartitioner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/ProcessAPITest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-          <folding>
-            <element signature="e#39#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/PartitonerTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.11/1.9.2/flink-streaming-scala_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/scala/DataStream.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="523" column="60" selection-start-line="523" selection-start-column="60" selection-end-line="523" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/datastream/DataStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="461" column="46" lean-forward="true" selection-start-line="461" selection-start-column="37" selection-end-line="461" selection-end-column="57" />
-          <folding>
-            <element signature="e#18603#18604#0" expanded="true" />
-            <element signature="e#18663#18664#0" expanded="true" />
-            <element signature="e#19255#19256#0" expanded="true" />
-            <element signature="e#19317#19318#0" expanded="true" />
->>>>>>> 新增算子
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ReadHDfS.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-          <folding>
-            <element signature="e#31#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ReadKafka.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-          <folding>
-            <element signature="e#31#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ReadKafkaNoKey.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-          <folding>
-            <element signature="e#31#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.2/flink-core-1.9.2-sources.jar!/org/apache/flink/api/java/functions/KeySelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="37" column="36" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/UnionOperator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#39#109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.11/1.9.2/flink-streaming-scala_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/scala/DataStream.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="930" column="59" selection-start-line="930" selection-start-column="48" selection-end-line="930" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/SplitOperator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/MapOperator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-          <folding>
-            <element signature="e#39#93#0" expanded="true" />
-          </folding>
-=======
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/runtime/partitioner/RebalancePartitioner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/stream2/3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/stream2/4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/stream1/1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/stream1/2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/stream2/1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/stream2/2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/Rescale.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
->>>>>>> 新增算子
+        <state relative-caret-position="396">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-<<<<<<< HEAD
-                <option value="0.2" />
-=======
-                <option value="0.40229884" />
->>>>>>> 新增算子
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-<<<<<<< HEAD
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-=======
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.40229884" />
->>>>>>> 新增算子
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>scala-sdk-2.11.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8.0_131</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-<<<<<<< HEAD
-                <option value="0.2" />
-=======
-                <option value="0.40229884" />
->>>>>>> 新增算子
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>StudyFlink</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-<<<<<<< HEAD
-                <option value="0.2" />
-                <option value="0.6" />
-=======
-                <option value="0.40229884" />
->>>>>>> 新增算子
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8.0_131</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-<<<<<<< HEAD
-          <last-edited>Maven: org.apache.flink:flink-streaming-scala_2.11:1.9.2</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-=======
-          <last-edited>Maven: com.esotericsoftware.kryo:kryo:2.24.0</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.40229884" />
->>>>>>> 新增算子
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
-  </component>
-  <component name="mavenExecuteGoalHistory">
-    <option value="" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="320" column="14" lean-forward="true" selection-start-line="320" selection-start-column="14" selection-end-line="320" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
