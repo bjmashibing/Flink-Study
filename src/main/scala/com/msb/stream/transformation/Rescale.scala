@@ -9,8 +9,6 @@ object Rescale {
 
     stream.writeAsText("./data/stream1").setParallelism(2)
 
-    stream.rescale.writeAsText("./data/stream2").setParallelism(5)
-
     env.execute()
 
     /**

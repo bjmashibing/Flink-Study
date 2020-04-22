@@ -32,8 +32,6 @@ object FlinkKafkaProducer {
         val builder = new StringBuilder
         val info = builder.append(monitorId + "\t").append(carId + "\t").append(timestamp + "\t").append(speed)
         producer.send(new ProducerRecord[String,String]("flink-kafka",i+"",info.toString))
-        Thread.sleep(500)
-        Thread.sleep(200)
       }
     }
   }
