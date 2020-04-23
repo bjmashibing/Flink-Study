@@ -2,286 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84b99963-8f82-4b47-be9b-1d24f5b37742" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/HBaseSinkTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/KafkaSinkTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/MySQlSinkTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/RedisSinkTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/BroadCastTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/CustomPartitioner.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/ForwardTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/Demo01StatisCarFlow.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/Demo02SortSpeed.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/Demo03SpeedAVG.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/Demo04MaxMinSpeed.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/SlidingCountWindowNoKeyed.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/SlidingCountWindowTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/SlidingTimeWindowNoKeyed.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/SlidingTimeWindowsTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/TumblingCountWindowNoKeyed.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/TumblingCountWindowTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/TumblingTimeWindowNoKeyed.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/TumblingTimeWindowTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/HBaseSinkTest$$anon$3$$anon$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/HBaseSinkTest$$anon$3$$anonfun$createSerializer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/HBaseSinkTest$$anon$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/HBaseSinkTest$$anon$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/HBaseSinkTest$$anon$5$$anon$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/HBaseSinkTest$$anon$5$$anonfun$createSerializer$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/HBaseSinkTest$$anon$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/HBaseSinkTest$$anon$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/HBaseSinkTest$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/HBaseSinkTest$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/HBaseSinkTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/KafkaSinkTest$$anon$2$$anon$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/KafkaSinkTest$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/KafkaSinkTest$$anon$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/KafkaSinkTest$$anon$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/KafkaSinkTest$$anonfun$main$1$$anonfun$apply$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/KafkaSinkTest$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/KafkaSinkTest$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/KafkaSinkTest$$anonfun$main$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/KafkaSinkTest$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/KafkaSinkTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/MySQlSinkTest$$anon$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/MySQlSinkTest$$anon$3$$anon$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/MySQlSinkTest$$anon$3$$anonfun$createSerializer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/MySQlSinkTest$$anon$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/MySQlSinkTest$$anonfun$main$1$$anonfun$apply$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/MySQlSinkTest$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/MySQlSinkTest$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/MySQlSinkTest$$anonfun$main$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/MySQlSinkTest$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/MySQlSinkTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/RedisSinkTest$$anon$2$$anon$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/RedisSinkTest$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/RedisSinkTest$$anon$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/RedisSinkTest$$anon$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/RedisSinkTest$$anonfun$main$1$$anonfun$apply$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/RedisSinkTest$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/RedisSinkTest$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/RedisSinkTest$$anonfun$main$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/RedisSinkTest$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/RedisSinkTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/BroadCastTest$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/BroadCastTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly$$anon$3$$anon$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly$$anon$3$$anonfun$createSerializer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly$$anon$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly$$anon$4$$anon$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly$$anon$4$$anonfun$createSerializer$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly$$anon$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly$$anon$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly$$anon$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CoFlatMap$$anon$1$$anonfun$map1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CoFlatMap$$anon$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CoFlatMap$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CoFlatMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ConnectOperator$$anon$3$$anon$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ConnectOperator$$anon$3$$anonfun$createSerializer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ConnectOperator$$anon$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ConnectOperator$$anon$4$$anon$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ConnectOperator$$anon$4$$anonfun$createSerializer$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ConnectOperator$$anon$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ConnectOperator$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ConnectOperator$$anonfun$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ConnectOperator$$anonfun$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ConnectOperator$$anonfun$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ConnectOperator$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ConnectOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CustomPartitioner$$anon$2$$anon$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CustomPartitioner$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CustomPartitioner$$anon$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CustomPartitioner$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CustomPartitioner$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CustomPartitioner$customPartitioner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CustomPartitioner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/DIstributeCache$$anon$1$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/DIstributeCache$$anon$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/DIstributeCache$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/DIstributeCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ForwardTest$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ForwardTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/Itera$$anonfun$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/Itera$$anonfun$main$1$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/Itera$$anonfun$main$1$$anonfun$apply$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/Itera$$anonfun$main$1$$anonfun$apply$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/Itera$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/Itera$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/Itera.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/PartitonerTest$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/PartitonerTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ProcessAPITest$$anon$2$$anon$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ProcessAPITest$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ProcessAPITest$$anon$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ProcessAPITest$$anon$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ProcessAPITest$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ProcessAPITest$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ProcessAPITest$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ProcessAPITest$CarInfo$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ProcessAPITest$CarInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ProcessAPITest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/Rescale$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/Rescale.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/SideOutputOperator$$anon$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/SideOutputOperator$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/SideOutputOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/WC2Redis$$anon$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/WC2Redis$$anon$3$$anon$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/WC2Redis$$anon$3$$anonfun$createSerializer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/WC2Redis$$anon$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/WC2Redis$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/WC2Redis$$anonfun$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/WC2Redis$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/WC2Redis.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/util/DateUtils$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/util/DateUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/util/HBaseUtil$$anonfun$getRecord$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/util/HBaseUtil$$anonfun$getRecord1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/util/HBaseUtil$$anonfun$getRecord2$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/util/HBaseUtil$$anonfun$getRecord3$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/util/HBaseUtil$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/util/HBaseUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/util/PropertiesUtils$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/util/PropertiesUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow$$anon$3$$anon$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow$$anon$3$$anonfun$createSerializer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow$$anon$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow$$anon$4$$anonfun$process$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow$$anon$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow$$anon$5$$anon$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow$$anon$5$$anonfun$createSerializer$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow$$anon$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow$$anon$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo02SortSpeed$$anon$2$$anon$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo02SortSpeed$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo02SortSpeed$$anon$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo02SortSpeed$$anon$3$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo02SortSpeed$$anon$3$$anonfun$process$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo02SortSpeed$$anon$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo02SortSpeed$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo02SortSpeed$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo02SortSpeed.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$$anon$4$$anon$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$$anon$4$$anonfun$createSerializer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$$anon$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$$anon$5$$anon$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$$anon$5$$anonfun$createSerializer$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$$anon$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$$anon$6$$anon$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$$anon$6$$anonfun$createSerializer$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$$anon$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$$anon$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo04MaxMinSpeed$$anon$2$$anon$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo04MaxMinSpeed$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo04MaxMinSpeed$$anon$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo04MaxMinSpeed$$anon$3$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo04MaxMinSpeed$$anon$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo04MaxMinSpeed$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo04MaxMinSpeed$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo04MaxMinSpeed.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowNoKeyed$$anon$2$$anon$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowNoKeyed$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowNoKeyed$$anon$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowNoKeyed$$anon$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowNoKeyed$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowNoKeyed$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowNoKeyed$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowNoKeyed.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowTest$$anon$2$$anon$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowTest$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowTest$$anon$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowTest$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowTest$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowTest$$anonfun$main$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowTest$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowNoKeyed$$anon$2$$anon$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowNoKeyed$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowNoKeyed$$anon$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowNoKeyed$$anon$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowNoKeyed$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowNoKeyed$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowNoKeyed$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowNoKeyed.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowsTest$$anon$2$$anon$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowsTest$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowsTest$$anon$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowsTest$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowsTest$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowsTest$$anonfun$main$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowsTest$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowsTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowNoKeyed$$anon$2$$anon$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowNoKeyed$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowNoKeyed$$anon$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowNoKeyed$$anon$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowNoKeyed$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowNoKeyed$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowNoKeyed$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowNoKeyed.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowTest$$anon$2$$anon$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowTest$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowTest$$anon$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowTest$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowTest$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowTest$$anonfun$main$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowTest$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowNoKeyed$$anon$2$$anon$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowNoKeyed$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowNoKeyed$$anon$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowNoKeyed$$anon$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowNoKeyed$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowNoKeyed$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowNoKeyed$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowNoKeyed.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$10.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$5$$anon$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$5$$anonfun$createSerializer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$6$$anonfun$process$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$7$$anon$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$7$$anonfun$createSerializer$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$8$$anon$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$8$$anonfun$createSerializer$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$9$$anon$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$9$$anonfun$createSerializer$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anonfun$main$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/stream1/1" beforeDir="false" afterPath="$PROJECT_DIR$/data/stream1/1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/stream1/2" beforeDir="false" afterPath="$PROJECT_DIR$/data/stream1/2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/stream2/1" beforeDir="false" afterPath="$PROJECT_DIR$/data/stream2/1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/stream2/2" beforeDir="false" afterPath="$PROJECT_DIR$/data/stream2/2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/stream2/3" beforeDir="false" afterPath="$PROJECT_DIR$/data/stream2/3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/stream2/4" beforeDir="false" afterPath="$PROJECT_DIR$/data/stream2/4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/stream2/5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/FlinkKafkaProducer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/FlinkKafkaProducer.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/DIstributeCache.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/DIstributeCache.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/msb/stream/util/DataUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/util/DateUtils.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/msb/stream/util/HBaseUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/util/HBaseUtil.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/msb/stream/source/FlinkKafkaProducer$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/source/FlinkKafkaProducer$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/msb/stream/source/FlinkKafkaProducer$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/source/FlinkKafkaProducer$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flink04分区策略.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -504,6 +225,11 @@
             <path>
               <item name="StudyFlink" type="b2602c69:ProjectViewProjectNode" />
               <item name="StudyFlink" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudyFlink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyFlink" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -605,6 +331,10 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.msb.stream.window" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\StudyFlink\docs" />
+      <recent name="D:\code\StudyFlink\images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -698,10 +428,25 @@
     <configuration />
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="新增算子">
+      <created>1587651760996</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587651760996</updated>
+    </task>
+    <task id="LOCAL-00002" summary="文档更新">
+      <created>1587651947428</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587651947428</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.80335367" visible="true" weight="0.23880596" />
       <window_info id="Structure" order="1" sideWeight="0.37974682" side_tool="true" weight="0.23880596" />
@@ -730,6 +475,11 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增算子" />
+    <MESSAGE value="文档更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="文档更新" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.2/flink-core-1.9.2-sources.jar!/org/apache/flink/api/java/functions/KeySelector.java">
