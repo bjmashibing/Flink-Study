@@ -6,7 +6,7 @@ import java.util.Date
 /**
   * 日期工具类
   */
-object DataUtils {
+object DateUtils {
 
   def getMin(date: Date): String = {
     val pattern = "yyyyMMddHHmm"

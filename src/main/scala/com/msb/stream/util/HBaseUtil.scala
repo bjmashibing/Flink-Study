@@ -22,6 +22,7 @@ object HBaseUtil {
   def getHBaseConfiguration() = {
     val prop = new Properties()
     val inputStream = HBaseUtil.getClass.getClassLoader.getResourceAsStream("hbase.properties")
+
     prop.load(inputStream)
 
     val conf = HBaseConfiguration.create()

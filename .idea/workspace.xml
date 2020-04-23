@@ -1,16 +1,288 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84b99963-8f82-4b47-be9b-1d24f5b37742" name="Default Changelist" comment="" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-=======
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
-=======
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
+    <list default="true" id="84b99963-8f82-4b47-be9b-1d24f5b37742" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/HBaseSinkTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/KafkaSinkTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/MySQlSinkTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/RedisSinkTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/BroadCastTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/CustomPartitioner.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/ForwardTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/Demo01StatisCarFlow.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/Demo02SortSpeed.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/Demo03SpeedAVG.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/Demo04MaxMinSpeed.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/SlidingCountWindowNoKeyed.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/SlidingCountWindowTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/SlidingTimeWindowNoKeyed.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/SlidingTimeWindowsTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/TumblingCountWindowNoKeyed.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/TumblingCountWindowTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/TumblingTimeWindowNoKeyed.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/TumblingTimeWindowTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/HBaseSinkTest$$anon$3$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/HBaseSinkTest$$anon$3$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/HBaseSinkTest$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/HBaseSinkTest$$anon$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/HBaseSinkTest$$anon$5$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/HBaseSinkTest$$anon$5$$anonfun$createSerializer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/HBaseSinkTest$$anon$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/HBaseSinkTest$$anon$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/HBaseSinkTest$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/HBaseSinkTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/HBaseSinkTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/KafkaSinkTest$$anon$2$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/KafkaSinkTest$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/KafkaSinkTest$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/KafkaSinkTest$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/KafkaSinkTest$$anonfun$main$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/KafkaSinkTest$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/KafkaSinkTest$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/KafkaSinkTest$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/KafkaSinkTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/KafkaSinkTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/MySQlSinkTest$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/MySQlSinkTest$$anon$3$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/MySQlSinkTest$$anon$3$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/MySQlSinkTest$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/MySQlSinkTest$$anonfun$main$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/MySQlSinkTest$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/MySQlSinkTest$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/MySQlSinkTest$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/MySQlSinkTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/MySQlSinkTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/RedisSinkTest$$anon$2$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/RedisSinkTest$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/RedisSinkTest$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/RedisSinkTest$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/RedisSinkTest$$anonfun$main$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/RedisSinkTest$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/RedisSinkTest$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/RedisSinkTest$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/RedisSinkTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/sink/RedisSinkTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/BroadCastTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/BroadCastTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly$$anon$3$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly$$anon$3$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly$$anon$4$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly$$anon$4$$anonfun$createSerializer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly$$anon$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly$$anon$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly$$anon$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CarFlowAnaly.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CoFlatMap$$anon$1$$anonfun$map1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CoFlatMap$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CoFlatMap$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CoFlatMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ConnectOperator$$anon$3$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ConnectOperator$$anon$3$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ConnectOperator$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ConnectOperator$$anon$4$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ConnectOperator$$anon$4$$anonfun$createSerializer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ConnectOperator$$anon$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ConnectOperator$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ConnectOperator$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ConnectOperator$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ConnectOperator$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ConnectOperator$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ConnectOperator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CustomPartitioner$$anon$2$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CustomPartitioner$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CustomPartitioner$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CustomPartitioner$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CustomPartitioner$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CustomPartitioner$customPartitioner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/CustomPartitioner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/DIstributeCache$$anon$1$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/DIstributeCache$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/DIstributeCache$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/DIstributeCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ForwardTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ForwardTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/Itera$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/Itera$$anonfun$main$1$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/Itera$$anonfun$main$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/Itera$$anonfun$main$1$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/Itera$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/Itera$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/Itera.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/PartitonerTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/PartitonerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ProcessAPITest$$anon$2$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ProcessAPITest$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ProcessAPITest$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ProcessAPITest$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ProcessAPITest$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ProcessAPITest$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ProcessAPITest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ProcessAPITest$CarInfo$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ProcessAPITest$CarInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/ProcessAPITest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/Rescale$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/Rescale.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/SideOutputOperator$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/SideOutputOperator$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/SideOutputOperator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/WC2Redis$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/WC2Redis$$anon$3$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/WC2Redis$$anon$3$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/WC2Redis$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/WC2Redis$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/WC2Redis$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/WC2Redis$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/transformation/WC2Redis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/util/DateUtils$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/util/DateUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/util/HBaseUtil$$anonfun$getRecord$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/util/HBaseUtil$$anonfun$getRecord1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/util/HBaseUtil$$anonfun$getRecord2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/util/HBaseUtil$$anonfun$getRecord3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/util/HBaseUtil$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/util/HBaseUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/util/PropertiesUtils$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/util/PropertiesUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow$$anon$3$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow$$anon$3$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow$$anon$4$$anonfun$process$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow$$anon$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow$$anon$5$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow$$anon$5$$anonfun$createSerializer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow$$anon$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow$$anon$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo01StatisCarFlow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo02SortSpeed$$anon$2$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo02SortSpeed$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo02SortSpeed$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo02SortSpeed$$anon$3$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo02SortSpeed$$anon$3$$anonfun$process$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo02SortSpeed$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo02SortSpeed$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo02SortSpeed$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo02SortSpeed.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$$anon$4$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$$anon$4$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$$anon$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$$anon$5$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$$anon$5$$anonfun$createSerializer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$$anon$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$$anon$6$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$$anon$6$$anonfun$createSerializer$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$$anon$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$$anon$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo03SpeedAVG.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo04MaxMinSpeed$$anon$2$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo04MaxMinSpeed$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo04MaxMinSpeed$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo04MaxMinSpeed$$anon$3$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo04MaxMinSpeed$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo04MaxMinSpeed$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo04MaxMinSpeed$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/Demo04MaxMinSpeed.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowNoKeyed$$anon$2$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowNoKeyed$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowNoKeyed$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowNoKeyed$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowNoKeyed$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowNoKeyed$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowNoKeyed$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowNoKeyed.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowTest$$anon$2$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowTest$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowTest$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowTest$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowTest$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowTest$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingCountWindowTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowNoKeyed$$anon$2$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowNoKeyed$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowNoKeyed$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowNoKeyed$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowNoKeyed$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowNoKeyed$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowNoKeyed$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowNoKeyed.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowsTest$$anon$2$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowsTest$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowsTest$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowsTest$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowsTest$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowsTest$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowsTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/SlidingTimeWindowsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowNoKeyed$$anon$2$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowNoKeyed$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowNoKeyed$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowNoKeyed$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowNoKeyed$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowNoKeyed$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowNoKeyed$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowNoKeyed.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowTest$$anon$2$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowTest$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowTest$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowTest$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowTest$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowTest$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingCountWindowTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowNoKeyed$$anon$2$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowNoKeyed$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowNoKeyed$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowNoKeyed$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowNoKeyed$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowNoKeyed$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowNoKeyed$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowNoKeyed.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$5$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$5$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$6$$anonfun$process$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$7$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$7$$anonfun$createSerializer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$8$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$8$$anonfun$createSerializer$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$9$$anon$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$9$$anonfun$createSerializer$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anon$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/windowt/TumblingTimeWindowTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/stream1/1" beforeDir="false" afterPath="$PROJECT_DIR$/data/stream1/1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/stream1/2" beforeDir="false" afterPath="$PROJECT_DIR$/data/stream1/2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/stream2/1" beforeDir="false" afterPath="$PROJECT_DIR$/data/stream2/1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/stream2/2" beforeDir="false" afterPath="$PROJECT_DIR$/data/stream2/2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/stream2/3" beforeDir="false" afterPath="$PROJECT_DIR$/data/stream2/3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/stream2/4" beforeDir="false" afterPath="$PROJECT_DIR$/data/stream2/4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/stream2/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/FlinkKafkaProducer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/FlinkKafkaProducer.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/DIstributeCache.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/DIstributeCache.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/msb/stream/util/DataUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/util/DateUtils.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/msb/stream/util/HBaseUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/util/HBaseUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/msb/stream/source/FlinkKafkaProducer$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/source/FlinkKafkaProducer$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/msb/stream/source/FlinkKafkaProducer$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/msb/stream/source/FlinkKafkaProducer$.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,80 +291,154 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="StudyFlink" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/DIstributeCache.scala">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/HBaseSinkTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="231">
+              <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
               <folding>
-                <element signature="e#39#58#0" expanded="true" />
+                <element signature="e#29#64#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/carId2Name">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/util/DateUtils.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-=======
-=======
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/Rescale.scala">
+            <state relative-caret-position="495">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/CarFlowAnaly.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-<<<<<<< HEAD
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
-=======
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
+            <state relative-caret-position="344">
+              <caret line="58" column="19" lean-forward="true" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/FlinkKafkaProducer.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ReadKafkaNoKey.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="26" column="18" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="26" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/functions/ProcessFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/KafkaSinkTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+              <folding>
+                <element signature="e#29#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/MySQlSinkTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#29#91#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Package Object" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tail</find>
+      <find>def tail</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-<<<<<<< HEAD
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/FlinkKafkaProducer.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/Rescale.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/PartitonerTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/AccumulatorTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/Rescale.scala" />
         <option value="$PROJECT_DIR$/data/carId2Name" />
         <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/DIstributeCache.scala" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/WordCount.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/window/WindowTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/window/SlidingProcessingTimeWindows.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/window/TumblingCountWindowTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/window/SlidingTimeWindowsTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/window/SlidingCountWindowTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/window/SlidingTimeWindowNoKeyed.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/window/TumblingCountWindowNoKeyed.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/window/TumblingTimeWindowNoKeyed.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/window/SlidingCountWindowNoKeyed.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/window/TumblingTimeWindowTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/source/FlinkKafkaProducer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/window/Demo03SpeedAVG.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/window/Demo01StatisCarFlow.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/window/Demo02SortSpeed.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/window/Demo04MaxMinSpeed.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/RedisSink.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/MySQLSinkTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/FileSinkTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/util/HBaseUtil.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/BroadCastTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/ForwardTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/CustomPartitioner.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/RedisSinkTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/KafkaSinkTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/HBaseSinkTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/MySQlSinkTest.scala" />
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-=======
-      </list>
-    </option>
-  </component>
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
-=======
-      </list>
-    </option>
-  </component>
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
@@ -108,15 +454,7 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="StudyFlink" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-<<<<<<< HEAD
-<<<<<<< HEAD
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-=======
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
-=======
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
         </path>
       </expand>
       <select />
@@ -134,16 +472,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
-=======
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,20 +482,6 @@
             <path>
               <item name="StudyFlink" type="b2602c69:ProjectViewProjectNode" />
               <item name="StudyFlink" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StudyFlink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StudyFlink" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
-=======
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -227,7 +541,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="msb" type="462c0819:PsiDirectoryNode" />
-              <item name="batch" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="StudyFlink" type="b2602c69:ProjectViewProjectNode" />
@@ -237,6 +551,7 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="msb" type="462c0819:PsiDirectoryNode" />
               <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="sink" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="StudyFlink" type="b2602c69:ProjectViewProjectNode" />
@@ -262,8 +577,6 @@
               <item name="StudyFlink" type="b2602c69:ProjectViewProjectNode" />
               <item name="StudyFlink" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-<<<<<<< HEAD
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="msb" type="462c0819:PsiDirectoryNode" />
@@ -274,33 +587,22 @@
               <item name="StudyFlink" type="b2602c69:ProjectViewProjectNode" />
               <item name="StudyFlink" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-=======
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
-=======
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
-<<<<<<< HEAD
       <pane id="PackagesPane" />
       <pane id="Scope" />
-=======
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
-=======
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\StudyFlink\.idea" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.msb.stream.window" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -315,15 +617,13 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <component name="RunManager" selected="Application.DIstributeCache">
-    <configuration name="AccumulatorTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.AccumulatorTest" />
+  <component name="RunManager" selected="Application.FlinkKafkaProducer">
+    <configuration name="FlinkKafkaProducer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.source.FlinkKafkaProducer" />
       <module name="StudyFlink" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msb.stream.transformation.*" />
+          <option name="PATTERN" value="com.msb.stream.source.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,12 +631,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DIstributeCache" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.DIstributeCache" />
+    <configuration name="HBaseSinkTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.sink.HBaseSinkTest" />
       <module name="StudyFlink" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msb.stream.transformation.*" />
+          <option name="PATTERN" value="com.msb.stream.sink.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -344,12 +644,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rescale" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.Rescale" />
+    <configuration name="KafkaSinkTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.sink.KafkaSinkTest" />
       <module name="StudyFlink" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msb.stream.transformation.*" />
+          <option name="PATTERN" value="com.msb.stream.sink.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySQlSinkTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.sink.MySQlSinkTest" />
+      <module name="StudyFlink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msb.stream.sink.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisSinkTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.sink.RedisSinkTest" />
+      <module name="StudyFlink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msb.stream.sink.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -359,124 +685,44 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DIstributeCache" />
-        <item itemvalue="Application.AccumulatorTest" />
-        <item itemvalue="Application.Rescale" />
+        <item itemvalue="Application.FlinkKafkaProducer" />
+        <item itemvalue="Application.HBaseSinkTest" />
+        <item itemvalue="Application.MySQlSinkTest" />
+        <item itemvalue="Application.KafkaSinkTest" />
+        <item itemvalue="Application.RedisSinkTest" />
       </list>
     </recent_temporary>
   </component>
-=======
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
-=======
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
-    <task id="LOCAL-00001" summary="aaa">
-      <created>1587544957341</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1587544957341</updated>
-    </task>
-    <task id="LOCAL-00002" summary="新增算子">
-      <created>1587545076256</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1587545076256</updated>
-    </task>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="84b99963-8f82-4b47-be9b-1d24f5b37742" name="Default Changelist" comment="" />
-      <created>1587545184151</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1587545184151</updated>
-    </task>
-    <task id="LOCAL-00003" summary="新增算子">
-      <created>1587545209039</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1587545209039</updated>
-    </task>
-    <task id="LOCAL-00004" summary="解决冲突">
-      <created>1587560953139</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1587560953139</updated>
-    </task>
-    <task id="LOCAL-00005" summary="解决 冲突">
-      <created>1587561000095</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1587561000095</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
-=======
-    <option name="localTasksCounter" value="3" />
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
-=======
-    <option name="localTasksCounter" value="3" />
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.3148148" visible="true" weight="0.21055438" />
-=======
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.3148148" visible="true" weight="0.20842217" />
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
-=======
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.3148148" visible="true" weight="0.20842217" />
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
-      <window_info id="Structure" order="1" sideWeight="0.6851852" side_tool="true" weight="0.32142857" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.80335367" visible="true" weight="0.23880596" />
+      <window_info id="Structure" order="1" sideWeight="0.37974682" side_tool="true" weight="0.23880596" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.19664635" side_tool="true" visible="true" weight="0.23880596" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6167377" visible="true" weight="0.2624729" />
-=======
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.61727077" weight="0.31344903" />
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
-=======
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.61727077" weight="0.31344903" />
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6167377" visible="true" weight="0.28850326" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5542299" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.38326225" side_tool="true" weight="0.31344903" />
-=======
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.3827292" side_tool="true" visible="true" weight="0.31344903" />
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
-=======
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.3827292" side_tool="true" visible="true" weight="0.31344903" />
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.38326225" side_tool="true" weight="0.36550975" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.5932836" weight="0.34056398" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4978678" weight="0.45986986" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4978678" weight="0.20173536" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.3192964" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" weight="0.32142857" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -484,385 +730,390 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="aaa" />
-    <MESSAGE value="新增算子" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <MESSAGE value="解决冲突" />
-    <MESSAGE value="解决 冲突" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决 冲突" />
-=======
-    <option name="LAST_COMMIT_MESSAGE" value="新增算子" />
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
-=======
-    <option name="LAST_COMMIT_MESSAGE" value="新增算子" />
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.2/flink-core-1.9.2-sources.jar!/org/apache/flink/api/java/functions/KeySelector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="320" column="14" lean-forward="true" selection-start-line="320" selection-start-column="14" selection-end-line="320" selection-end-column="14" />
+        <state relative-caret-position="252">
+          <caret line="37" column="36" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.2/flink-core-1.9.2-sources.jar!/org/apache/flink/api/common/serialization/Encoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        <state relative-caret-position="205">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/batch/WordCount.scala">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.2/flink-core-1.9.2-sources.jar!/org/apache/flink/api/common/serialization/SimpleStringEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="30" column="64" lean-forward="true" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
+          <folding>
+            <element signature="e#1593#1594#0" expanded="true" />
+            <element signature="e#1613#1614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/functions/sink/filesystem/BucketAssigner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/functions/sink/filesystem/rollingpolicies/DefaultRollingPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/functions/sink/filesystem/RollingPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/functions/sink/filesystem/StreamingFileSink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="226" column="95" selection-start-line="226" selection-start-column="95" selection-end-line="226" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/FileSinkTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#29#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/Demo03SpeedAVG.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="17" />
+          <folding>
+            <element signature="e#32#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/Demo02SortSpeed.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="25" column="110" selection-start-line="15" selection-start-column="4" selection-end-line="25" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/Demo01StatisCarFlow.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/windowt/SlidingTimeWindowsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/CustomSourceStandalone.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hbase.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/FlinkKafkaProducer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="890">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ParallCustomSource.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ReadCollections.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ReadHDfS.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ReadKafka.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ReadKafkaNoKey.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/CarFlowAnaly.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/CoFlatMap.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/SideOutputOperator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/SplitOperator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/UnionOperator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/util/DataUtils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="174">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/util/HBaseUtil.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="265">
+          <caret line="154" column="31" lean-forward="true" selection-start-line="154" selection-start-column="4" selection-end-line="154" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/util/PropertiesUtils.scala">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/1.3.3/hbase-client-1.3.3.jar!/org/apache/hadoop/hbase/client/HTable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="100" column="18" selection-start-line="100" selection-start-column="18" selection-end-line="100" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/1.3.3/hbase-client-1.3.3-sources.jar!/org/apache/hadoop/hbase/client/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-123">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/BroadCastTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <caret line="11" column="17" selection-start-line="6" selection-start-column="3" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/runtime/partitioner/ShufflePartitioner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/ForwardTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-          <folding>
-            <element signature="e#1466#1467#0" expanded="true" />
-            <element signature="e#1512#1513#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.11/1.9.2/flink-streaming-scala_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/scala/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.11/1.9.2/flink-streaming-scala_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/scala/DataStream.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="543" column="55" selection-start-line="543" selection-start-column="55" selection-end-line="543" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/stream1/2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/stream2/4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/stream2/5">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/runtime/partitioner/GlobalPartitioner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.5/hadoop-mapreduce-client-core-2.6.5.jar!/org/apache/hadoop/mapred/lib/HashPartitioner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="231">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/stream1/1">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-=======
-=======
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/Rescale.scala">
+        <state>
+          <caret selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/stream1/2">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-<<<<<<< HEAD
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
-=======
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
+        <state relative-caret-position="99">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/stream2/1">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-<<<<<<< HEAD
-<<<<<<< HEAD
-          <caret selection-end-line="2" />
-=======
-          <caret selection-end-line="2" selection-end-column="1" />
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
-=======
-          <caret selection-end-line="2" selection-end-column="1" />
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
+          <caret selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/stream2/2">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/data/stream2/3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/runtime/partitioner/RescalePartitioner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/datastream/DataStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="499" column="44" selection-start-line="499" selection-start-column="37" selection-end-line="499" selection-end-column="54" />
-          <folding>
-            <element signature="e#20584#20585#0" expanded="true" />
-            <element signature="e#20644#20645#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/Rescale.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/PartitonerTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.2/flink-core-1.9.2-sources.jar!/org/apache/flink/api/common/functions/RichMapFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/AccumulatorTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding>
-            <element signature="e#39#97#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/WC2Redis.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/ConnectOperator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-547">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/Itera.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/MapOperator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-660">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/ProcessAPITest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-693">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/carId2Name">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/DIstributeCache.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-          </folding>
-=======
-=======
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
-    <entry file="file://$PROJECT_DIR$/data/stream1/1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/stream1/2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        <state>
+          <caret selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/stream2/3">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        <state>
+          <caret selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/stream2/4">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" />
-<<<<<<< HEAD
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
-=======
->>>>>>> 52f9abc27d337426ff8c7e357b07597714ecd73e
+        <state relative-caret-position="33">
+          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/CustomPartitioner.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding>
+            <element signature="e#39#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/bahir/flink-connector-redis_2.11/1.0/flink-connector-redis_2.11-1.0-sources.jar!/org/apache/flink/streaming/connectors/redis/common/config/FlinkJedisConfigBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/bahir/flink-connector-redis_2.11/1.0/flink-connector-redis_2.11-1.0-sources.jar!/org/apache/flink/streaming/connectors/redis/RedisSink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="105" column="69" selection-start-line="105" selection-start-column="64" selection-end-line="105" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/bahir/flink-connector-redis_2.11/1.0/flink-connector-redis_2.11-1.0-sources.jar!/org/apache/flink/streaming/connectors/redis/common/mapper/RedisMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/bahir/flink-connector-redis_2.11/1.0/flink-connector-redis_2.11-1.0-sources.jar!/org/apache/flink/streaming/connectors/redis/common/mapper/RedisCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="71" column="8" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/bahir/flink-connector-redis_2.11/1.0/flink-connector-redis_2.11-1.0-sources.jar!/org/apache/flink/streaming/connectors/redis/common/mapper/RedisCommandDescription.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="53" column="40" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="47" />
+          <folding>
+            <element signature="e#3625#3626#0" expanded="true" />
+            <element signature="e#3665#3666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-kafka-base_2.11/1.9.2/flink-connector-kafka-base_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/util/serialization/KeyedSerializationSchema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="35" column="41" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/bahir/flink-connector-redis_2.11/1.0/flink-connector-redis_2.11-1.0-sources.jar!/org/apache/flink/streaming/connectors/redis/common/config/FlinkJedisPoolConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="188" column="9" lean-forward="true" selection-start-line="188" selection-start-column="9" selection-end-line="188" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.2.0/kafka-clients-2.2.0-sources.jar!/org/apache/kafka/clients/producer/ProducerRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="129" column="50" lean-forward="true" selection-start-line="129" selection-start-column="50" selection-end-line="129" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-kafka-base_2.11/1.9.2/flink-connector-kafka-base_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/connectors/kafka/KafkaSerializationSchema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-kafka_2.11/1.9.2/flink-connector-kafka_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/connectors/kafka/FlinkKafkaProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="545" column="39" selection-start-line="545" selection-start-column="31" selection-end-line="545" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/RedisSinkTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="36" column="8" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="36" selection-end-column="8" />
+          <folding>
+            <element signature="e#29#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.2/flink-core-1.9.2-sources.jar!/org/apache/flink/api/common/functions/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.2/flink-core-1.9.2-sources.jar!/org/apache/flink/api/common/functions/RichFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.2/flink-core-1.9.2-sources.jar!/org/apache/flink/api/common/functions/AbstractRichFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="32" column="66" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/functions/sink/RichSinkFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/functions/sink/SinkFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.11/1.9.2/flink-streaming-scala_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/scala/DataStream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="1118" column="32" lean-forward="true" selection-start-line="1118" selection-start-column="32" selection-end-line="1118" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/KafkaSinkTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding>
+            <element signature="e#29#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/1.3.3/hbase-client-1.3.3-sources.jar!/org/apache/hadoop/hbase/client/HTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="147" column="9" selection-start-line="147" selection-start-column="9" selection-end-line="147" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/ReadKafkaNoKey.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="26" column="18" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/CarFlowAnaly.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="58" column="19" lean-forward="true" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/functions/ProcessFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/util/DateUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/source/FlinkKafkaProducer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/HBaseSinkTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="e#29#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/MySQlSinkTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#29#91#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

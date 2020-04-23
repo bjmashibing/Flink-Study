@@ -23,6 +23,7 @@ object FlinkKafkaProducer {
     val iterator = Source.fromFile("./data/carFlow_all_column_test.txt").getLines()
     for (i <- 1 to 100) {
       for (elem <- iterator) {
+        println(elem)
         //kv mq
         val splits = elem.split(",")
         val monitorId = splits(0).replace("'","")
@@ -32,6 +33,7 @@ object FlinkKafkaProducer {
         val builder = new StringBuilder
         val info = builder.append(monitorId + "\t").append(carId + "\t").append(timestamp + "\t").append(speed)
         producer.send(new ProducerRecord[String,String]("flink-kafka",i+"",info.toString))
+        Thread.sleep(200)
       }
     }
   }

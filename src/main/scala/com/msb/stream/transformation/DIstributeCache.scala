@@ -23,16 +23,16 @@ object DIstributeCache {
 
     val stream = env.socketTextStream("node01",8888)
     stream.map(new RichMapFunction[String,String] {
-      private val map = new mutable.HashMap[String,String]()
-      //使用文件
-      override def open(parameters: Configuration): Unit = {
-        val carId2NameFile: File = getRuntimeContext.getDistributedCache.getFile("carId2NameFile")
-        val lines: util.List[String] = FileUtils.readLines(carId2NameFile)
-        val iterator: util.Iterator[String] = lines.iterator()
-        while(iterator.hasNext){
-          val line = iterator.next()
-          val splits = line.split(" ")
-          map.put(splits(0),splits(1))
+            private val map = new mutable.HashMap[String,String]()
+            //使用文件
+            override def open(parameters: Configuration): Unit = {
+              val carId2NameFile: File = getRuntimeContext.getDistributedCache.getFile("carId2NameFile")
+              val lines: util.List[String] = FileUtils.readLines(carId2NameFile)
+              val iterator: util.Iterator[String] = lines.iterator()
+              while(iterator.hasNext){
+                val line = iterator.next()
+                val splits = line.split(" ")
+                map.put(splits(0),splits(1))
         }
       }
 
@@ -40,6 +40,8 @@ object DIstributeCache {
         val value:String = map.getOrElse(key,"not found name")
         value
       }
+
+
     }).print()
     env.execute()
   }
