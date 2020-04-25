@@ -3,6 +3,7 @@ package com.msb.stream.sink
 import java.sql.{Connection, DriverManager, PreparedStatement}
 
 import org.apache.flink.configuration.Configuration
+import org.apache.flink.streaming.api.TimeCharacteristic
 import org.apache.flink.streaming.api.functions.sink.{RichSinkFunction, SinkFunction}
 import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
 import org.apache.flink.streaming.connectors.redis.common.config.FlinkJedisPoolConfig
@@ -26,8 +27,12 @@ import scala.collection.mutable.ListBuffer
 object MySQlSinkTest {
   def main(args: Array[String]): Unit = {
     val env = StreamExecutionEnvironment.getExecutionEnvironment
-    val stream = env.socketTextStream("node01",8888)
 
+    env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime)
+    env.setStreamTimeCharacteristic(TimeCharacteristic.ProcessingTime)
+    env.setStreamTimeCharacteristic(TimeCharacteristic.IngestionTime)
+
+    val stream = env.socketTextStream("node01",8888)
 
     val jedisPoolConfig = new FlinkJedisPoolConfig.Builder().setHost("node01").setPort(6379).setDatabase(3).build()
 
