@@ -25,7 +25,7 @@ object SideOutputOperator {
             ctx.output(gtTag, value)
           }
         } catch {
-          case e => e.getMessage
+          case e => e.printStackTrace()
             ctx.output(gtTag, value)
         }
       }
