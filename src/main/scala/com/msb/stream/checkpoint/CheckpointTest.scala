@@ -41,17 +41,13 @@ object CheckpointTest {
     val stream = env.socketTextStream("node01", 8888)
 
     stream.flatMap(_.split(" "))
-      .map((_, 1)).uid("reduce")
-      .filter(_.equals("hello"))
+      .filter(!"asd".equals(_))
+      .map((_, 1)).uid("map")
       .keyBy(x => x._1)
       .reduce((v1: (String, Int), v2: (String, Int)) => {
         (v1._1, v1._2 + v2._2)
       }).uid("reduce")
-      .map(x=>{
-        println(x + ":savepoint" )
-      })
       .print()
-
     env.execute()
   }
 }
