@@ -14,8 +14,6 @@ import org.apache.flink.util.Collector
   * 1、每隔10s 计算最近Ns数据的wordcount
   * 2、将每个窗口的计算结果写入到mysql中
   */
-
-
 object TublingTimeWindowKeyedStream {
   def main(args: Array[String]): Unit = {
     val env = StreamExecutionEnvironment.getExecutionEnvironment
@@ -32,9 +30,7 @@ object TublingTimeWindowKeyedStream {
           (value1._1, value2._2 + value1._2)
         }
       },new ProcessWindowFunction[(String,Int),(String,Int),String,TimeWindow] {
-
         override def process(key: String, context: Context, elements: Iterable[(String, Int)], out: Collector[(String, Int)]): Unit = {
-
         }
       }).print()
     env.execute()

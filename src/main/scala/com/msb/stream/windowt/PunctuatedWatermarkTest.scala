@@ -29,19 +29,20 @@ object PunctuatedWatermarkTest {
   }
 
   class myWatermark(delay: Long) extends AssignerWithPunctuatedWatermarks[(String, Long)] {
-    var maxTimeStamp:Long = _
+    var maxTimeStamp: Long = _
 
     override def checkAndGetNextWatermark(elem: (String, Long), extractedTimestamp: Long): Watermark = {
-      maxTimeStamp = extractedTimestamp.max(maxTimeStamp)
       if ("001".equals(elem._1)) {
+        maxTimeStamp = extractedTimestamp.max(maxTimeStamp)
         new Watermark(maxTimeStamp - delay)
       } else {
-        new Watermark(maxTimeStamp)
+        return null
       }
     }
 
     override def extractTimestamp(element: (String, Long), previousElementTimestamp: Long): Long = {
-      element._2 * 1000
+      element._2
     }
   }
+
 }
