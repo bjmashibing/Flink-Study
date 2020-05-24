@@ -34,7 +34,8 @@ object EventTimeDelayWindow {
     val env = StreamExecutionEnvironment.getExecutionEnvironment
     env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime)
     env.getConfig.setAutoWatermarkInterval(100)
-    val stream = env.socketTextStream("node01", 8888).assignTimestampsAndWatermarks(new MyTimestampAndWatermarks(3000L))
+    val stream = env.socketTextStream("node01", 8888)
+      .assignTimestampsAndWatermarks(new MyTimestampAndWatermarks(3000L))
 
     stream
       .flatMap(x => x.split(" ").tail)

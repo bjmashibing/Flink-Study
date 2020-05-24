@@ -19,7 +19,7 @@ import scala.collection.mutable
 object CoFlatMap {
   def main(args: Array[String]): Unit = {
     val env = StreamExecutionEnvironment.getExecutionEnvironment
-    env.setParallelism(1)
+    env.setParallelism(3)
     val filePath = "data/carId2Name"
     val carId2NameStream = env.readFile(new TextInputFormat(new Path(filePath)),filePath,FileProcessingMode.PROCESS_CONTINUOUSLY,10)
     val dataStream = env.socketTextStream("node01",8888)
