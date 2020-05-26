@@ -34,15 +34,20 @@ object BroadCastStream {
     //业务流
     val busStream = env.socketTextStream("node01",8888)
 
+    //定义map state描述器
     val descriptor = new MapStateDescriptor[String,  String]("dynamicConfig",
       BasicTypeInfo.STRING_TYPE_INFO,
       BasicTypeInfo.STRING_TYPE_INFO)
+
     //设置广播流的数据描述信息
     val broadcastStream = configureStream.broadcast(descriptor)
 
     //connect关联业务流与配置信息流，broadcastStream流中的数据会广播到下游的各个线程中
     busStream.connect(broadcastStream)
-        .process(new BroadcastProcessFunction[String,String,String] {
+        .process(
+          new BroadcastProcessFunction[String,String,String] {
+
+            //每来一个新的元素都会调用一下这个方法
           override def processElement(line: String, ctx: BroadcastProcessFunction[String, String, String]#ReadOnlyContext, out: Collector[String]): Unit = {
             val broadcast = ctx.getBroadcastState(descriptor)
             val city = broadcast.get(line)
