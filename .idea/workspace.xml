@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6ee65c8-7a37-46c1-8241-988ea84242e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/tableAndSQL/CreateTableEnvironment.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/tableAndSQL/CreateTableEnvironment.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/tableAndSQL/CreateTableFromDataStream.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/tableAndSQL/CreateTableFromDataStream.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/tableAndSQL/CreateTableFromFile.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/tableAndSQL/CreateTableFromFile.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/tableAndSQL/TestFlinkSQL.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/tableAndSQL/TestFlinkSQL.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/tableAndSQL/TestTableAPI.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/tableAndSQL/TestTableAPI.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/tableAndSQL/TestTableAPIWindow.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/tableAndSQL/TestTableAPIWindow.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/tableAndSQL/TestUDF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/tableAndSQL/TestUDF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,7 +16,26 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/cep/TestCEPByLogin.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-231">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="117" selection-start-line="117" selection-end-line="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,7 +76,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/window/EventTimeWordCount.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/window/PeriodicWatermarkTest2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/window/PunctuatedWatermark.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/data/tableexamples" />
         <option value="$PROJECT_DIR$/src/main/scala/com/msb/table/Test01.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/msb/table/WordCount.scala" />
@@ -74,6 +86,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/conntable/TimerQueryTable.scala" />
         <option value="$PROJECT_DIR$/data/id2city" />
         <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/conntable/BroadCastStream.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/msb/stream/cep/TestCEPByLogin.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -175,6 +189,12 @@
               <item name="msb" type="462c0819:PsiDirectoryNode" />
               <item name="tableAndSQL" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="StudyFlink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyFlink" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -194,8 +214,9 @@
       <recent name="com.msb.stream.windowt" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\StudyFlink\src\main" />
       <recent name="D:\code\StudyFlink\docs" />
+      <recent name="D:\code\StudyFlink\src\main\scala\com\msb\stream" />
+      <recent name="D:\code\StudyFlink\src\main" />
       <recent name="D:\code\StudyFlink\images" />
     </key>
   </component>
@@ -333,11 +354,19 @@
       <option name="project" value="LOCAL" />
       <updated>1591695098906</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Flink CEP">
+      <created>1591715006484</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591715006484</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21375267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -372,16 +401,10 @@
     <MESSAGE value="window Watermark" />
     <MESSAGE value="关联维表实战" />
     <MESSAGE value="Flink SQL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Flink SQL" />
+    <MESSAGE value="Flink CEP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flink CEP" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/datastream/KeyedStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="614" column="40" lean-forward="true" selection-start-line="614" selection-start-column="40" selection-end-line="614" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/windowing/assigners/TumblingEventTimeWindows.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -732,13 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="116" selection-start-line="116" selection-end-line="116" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/tableAndSQL/TestUDF.scala">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -753,6 +769,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/cep/TestCEPByLogin.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-231">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
         </state>
       </provider>
     </entry>
