@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6ee65c8-7a37-46c1-8241-988ea84242e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/Flink超神文档.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/tableAndSQL/CreateTableEnvironment.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/tableAndSQL/CreateTableFromDataStream.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/tableAndSQL/CreateTableFromFile.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/tableAndSQL/TestFlinkSQL.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/tableAndSQL/TestTableAPI.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/tableAndSQL/TestTableAPIWindow.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/tableAndSQL/TestUDF.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Flink超神文档.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flink超神文档.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/tableAndSQL/CreateTableEnvironment.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/tableAndSQL/CreateTableEnvironment.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/tableAndSQL/CreateTableFromDataStream.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/tableAndSQL/CreateTableFromDataStream.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/tableAndSQL/CreateTableFromFile.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/tableAndSQL/CreateTableFromFile.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/tableAndSQL/TestFlinkSQL.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/tableAndSQL/TestFlinkSQL.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/tableAndSQL/TestTableAPI.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/tableAndSQL/TestTableAPI.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/tableAndSQL/TestTableAPIWindow.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/tableAndSQL/TestTableAPIWindow.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/tableAndSQL/TestUDF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/tableAndSQL/TestUDF.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,52 +22,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/stream/conntable/BroadCastStream.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-              <folding>
-                <element signature="e#34#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="968">
-              <caret line="116" selection-start-line="116" selection-end-line="116" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/tableAndSQL/TestUDF.scala">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/tableAndSQL/CreateTableFromDataStream.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/tableAndSQL/TestTableAPI.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -221,42 +173,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="msb" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StudyFlink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StudyFlink" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="msb" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="conntable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StudyFlink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StudyFlink" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="msb" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="state" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StudyFlink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StudyFlink" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="msb" type="462c0819:PsiDirectoryNode" />
-              <item name="table" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StudyFlink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StudyFlink" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="tableAndSQL" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -267,9 +183,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\StudyFlink\src\main\scala" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.msb.stream.window" />
       <recent name="com.msb.stream.windowt" />
@@ -407,12 +326,18 @@
       <option name="project" value="LOCAL" />
       <updated>1590501927808</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Flink SQL">
+      <created>1591695098906</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591695098906</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21375267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -446,7 +371,8 @@
     <MESSAGE value="window窗口代码" />
     <MESSAGE value="window Watermark" />
     <MESSAGE value="关联维表实战" />
-    <option name="LAST_COMMIT_MESSAGE" value="关联维表实战" />
+    <MESSAGE value="Flink SQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flink SQL" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.2/flink-streaming-java_2.11-1.9.2-sources.jar!/org/apache/flink/streaming/api/datastream/KeyedStream.java">
@@ -813,17 +739,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/tableAndSQL/TestUDF.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/tableAndSQL/TestUDF.scala">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/tableAndSQL/CreateTableFromDataStream.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/tableAndSQL/CreateTableFromDataStream.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/tableAndSQL/TestTableAPI.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/msb/tableAndSQL/TestTableAPI.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />

@@ -16,7 +16,7 @@ object CreateTableFromFile {
     val tableEnv: StreamTableEnvironment = StreamTableEnvironment.create(streamEnv)
 
     val tableSource = new CsvTableSource(
-      getClass.getResource("/../../../data/carFlow_all_column_test.txt").getPath,
+      getClass.getResource("/data/carFlow_all_column_test.txt").getPath,
       Array[String]("f1", "f2", "f3", "f4", "f5", "f6"),
       Array(Types.STRING, Types.STRING, Types.STRING, Types.STRING, Types.LONG, Types.INT)
     )
