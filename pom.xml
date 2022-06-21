@@ -13,7 +13,7 @@
         <scala.version>2.11.8</scala.version>
         <redis.version>3.2.0</redis.version>
         <hbase.version>1.3.3</hbase.version>
-        <mysql.version>5.1.44</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
     </properties>
     <dependencies>
         <dependency>
